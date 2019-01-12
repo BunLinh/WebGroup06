@@ -81,7 +81,7 @@
 						<a href="signup.jsp" class="txt2 bo1">
 							Sign up now
 						</a><br>
-						<a href="../index.jsp" class="txt2 bo1" style="text-decoration: none">
+						<a href="../index-en.jsp" class="txt2 bo1" style="text-decoration: none">
 							Back Home
 						</a>
 					</div>  

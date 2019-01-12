@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Forgot</title>
+	<title>Quên mật khẩu</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,25 +43,25 @@
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w">
 					<span class="login100-form-title p-b-53">
-						Input Your Email
+						Nhập mail của bạn
 					</span>
-					<p> If you forgot your password let input your email to reset your password again.</p>
+					<p> Nếu bạn quên mật khẩu hãy nhập email để reset lại mật khẩu.</p>
 
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" placeholder="Email" type="text" name="email" >
+						<input class="input100" placeholder="Email" type="text" name="mail" >
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="container-login100-form-btn m-t-17">
 						<button class="login100-form-btn">
-							Submit
+							Xác nhận
 						</button>
 					</div>
 
 					<div class="w-full text-center p-t-55">
-						<a href="login.jsp" class="txt2 bo1">
-							Sign in now
+						<a href="login-vn.jsp" class="txt2 bo1">
+							Đăng nhập
 						</a>
 					</div>
 				</form>

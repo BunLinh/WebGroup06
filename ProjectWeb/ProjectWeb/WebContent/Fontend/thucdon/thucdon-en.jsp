@@ -17,13 +17,12 @@
     <link rel="icon" href="img/core-img/logo.png">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="container.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="thucdon.css">
+    <link href="<%=request.getContextPath()%>/Fontend/container.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/thucdon.css">
 
 </head>
 
@@ -31,7 +30,7 @@
   <!-- Preloader -->
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/logo.png" alt="">
+        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
     </div>
 
     <%@include file="../menu/menu-en.jsp" %>
@@ -41,7 +40,7 @@
 
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb4.jpg);">
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(<%=request.getContextPath()%>/Fontend/img/bg-img/breadcumb4.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -75,7 +74,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n1.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n1.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Thit lon nuong moi</h5>
@@ -88,7 +87,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n2.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n2.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Ca loc nuong</h5>
@@ -101,7 +100,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n3.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n3.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Muc nuong</h5>
@@ -114,7 +113,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n4.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n4.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Ran moi nuong trui</h5>
@@ -127,7 +126,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n5.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n5.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Ga nuong</h5>
@@ -140,7 +139,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/donuong/n6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Bo nuong</h5>
@@ -153,7 +152,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r1.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r1.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Lau dai dương</h5>
@@ -168,7 +167,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r2.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r2.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Doi truong lang xa ot</h5>
@@ -183,7 +182,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r3.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r3.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Luc bo chau bia lon</h5>
@@ -198,7 +197,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r4.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r4.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Ty co nuong thoat y</h5>
@@ -213,7 +212,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r5.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r5.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Duong dua lang nuoc mam</h5>
@@ -228,7 +227,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Tom hum nuong</h5>
@@ -254,7 +253,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h1.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h1.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Lau dai duong</h5>
@@ -269,7 +268,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h2.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h2.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Doi truong lang xa ot</h5>
@@ -284,7 +283,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h3.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h3.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Luc bo chau bia lon</h5>
@@ -299,7 +298,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h4.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h4.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Ty co nuong thoat y</h5>
@@ -314,7 +313,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h5.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h5.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Duong dua lang nuoc mam</h5>
@@ -329,7 +328,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -342,7 +341,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h7.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h7.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -355,7 +354,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h8.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h8.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -368,7 +367,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h9.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h9.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -381,7 +380,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h10.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h10.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -394,7 +393,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h11.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h11.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -407,7 +406,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/haisan/h12.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h12.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -434,7 +433,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/thucuong/d1.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/d1.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Heineken</h5>
@@ -449,7 +448,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/thucuong/d2.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/d2.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Tiger Beer</h5>
@@ -464,7 +463,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/menu/thucuong/h3.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/h3.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>SaiGon Special</h5>
@@ -479,7 +478,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r4.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r4.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Tý Cô Nương Thoát Y</h5>
@@ -498,7 +497,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r5.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r5.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Đuông Dừa Lăng Nước Mắm</h5>
@@ -517,7 +516,7 @@
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -534,7 +533,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -551,7 +550,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -568,7 +567,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -585,7 +584,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -602,7 +601,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -619,7 +618,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
-                            <img src="img/bg-img/r6.jpg" alt="">
+                            <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
                                 <a href="order.jsp">
                                     <h5>Cau ca hau ruou</h5>
@@ -661,7 +660,7 @@
                     </div>
                     <!-- Footer Logo -->
                     <div class="footer-logo">
-                        <a href="index.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
                     </div>
                     <!-- Copywrite -->
                     <p>
@@ -678,18 +677,18 @@
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
     <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/google-map/map-active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/google-map/map-active.js"></script>
 </body>
 
 </html>

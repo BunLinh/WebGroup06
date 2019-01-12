@@ -109,7 +109,7 @@
                         <div class="top-cta-content">
                             <h3>Dê Núi Bình Định</h3>
                             <h6>Đặc sản miền núi</h6>
-                            <a href="receipe-post.jsp" class="btn delicious-btn">Xem mồi</a>
+                            <a href="thucdon/thucdon.jsp" class="btn delicious-btn">Xem mồi</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <div class="top-cta-content">
                             <h3>Cua Biển Năm Căn</h3>
                             <h6>Đặc sản làng chày</h6>
-                            <a href="receipe-post.jsp" class="btn delicious-btn">Xem mồi</a>
+                            <a href="thucdon/thucdon.jsp" class="btn delicious-btn">Xem mồi</a>
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
                             Diệu. Với sứ mệnh phục vụ - giải tỏa nỗi buồn - nỗi đau bao tử của sinh viên, công nhân
                             viên chức. Với 100% nguyên liệu sạch, tươi sống cùng nhiều món ăn đặc trưng vùng miền, Hai
                             Kết xin phục vụ quý khách hết mình</p>
-                        <a href="#menu-hihi" class="btn delicious-btn">Cùng xem menu nào các bạn</a>
+                        <a href="thucdon/thucdon.jsp" class="btn delicious-btn">Cùng xem menu nào các bạn</a>
                     </div>
                 </div>
             </div>
@@ -367,241 +367,6 @@
         </div>
     </section>
     <!-- ##### CTA Area End ##### -->
-
-    <!-- ##### Small Receipe Area Start ##### -->
-    <!--        <section class="small-receipe-area section-padding-80-0">
-                    <div  class="container">
-                        <div style="text-align: center; font-size: 50px; margin-bottom: 50px">Menu Hai Kết</div>
-                        <div class="row">
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr1.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Cua Hoàng Đế</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr2.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Lẩu Mắm</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr3.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Bê Thui</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr4.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Chân Gà Hầm Mật Ong</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr5.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Đuông Dừa Lăng Nước Mắm</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr6.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Ốc Hấp Bia</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr7.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Gà Ăn Mày</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr8.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Rượu Chuối Hột</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                             Small Receipe Area 
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <div class="single-small-receipe-area d-flex">
-                                     Receipe Thumb 
-                                    <div class="receipe-thumb">
-                                        <img src="img/bg-img/sr9.jpg" alt="">
-                                    </div>
-                                     Receipe Content 
-                                    <div class="receipe-content">
-                                        <span>January 04, 2018</span>
-                                        <a href="#">
-                                            <h5>Bia Tiger</h5>
-                                        </a>
-                                        <div class="ratings">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </div>
-                                        <p>2 Comments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>-->
-    <!-- ##### Small Receipe Area End ##### -->
 
     <!-- ##### Quote Subscribe Area Start ##### -->
     <section class="quote-subscribe-adds">

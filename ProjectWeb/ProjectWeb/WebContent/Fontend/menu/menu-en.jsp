@@ -14,15 +14,15 @@
     <title>Menu</title>
 
     <!-- Favicon -->
-    <link rel="icon" href=" <%=request.getContextPath()%>/img/core-img/logo.png">
+    <link rel="icon" href="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/style.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/style.css">
 
     <!--    Css project-->
-    <link href="<%=request.getContextPath()%>/container.css" rel="stylesheet" type="text/css" />
+    <link href="<%=request.getContextPath()%>/Fontend/container.css" rel="stylesheet" type="text/css" />
     <!--    Css menu-->
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/thucdon.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/thucdon.css">
 </head>
 
 <body>
@@ -76,11 +76,11 @@
                             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                         <div class="language">
-                            <a class="vn" href="index.jsp"><img src="img/bg-img/vi-flag.png"></a>
-                            <a class="us" href="index-en.jsp"><img src="img/bg-img/us-flag.png"></a>
-                            <a class="login" href="login/login.jsp">Login</a>
+                            <a class="vn" href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/vi-flag.png"></a>
+                            <a class="us" href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/us-flag.png"></a>
+                            <a class="login" href="<%=request.getContextPath()%>/Fontend/login/login.jsp">Login</a>
                             <span>/</span>
-                            <a class="logup" href="login/signup.jsp">Register</a>
+                            <a class="logup" href="<%=request.getContextPath()%>/Fontend/login/signup.jsp">Register</a>
 
                         </div>
                         <div style="margin-left: 15px;" class="search-btn">
@@ -100,7 +100,7 @@
                     <nav class="classy-navbar justify-content-between" id="deliciousNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -118,12 +118,12 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.jsp">Home</a></li>
-                                    <li class="active"><a href="thucdon-en.jsp">Menu</a></li>
-                                    <li class="db"><a href="order-en.jsp">Book</a></li>
-                                    <li class="gt"><a href="about-en.jsp">Introduce</a></li>
-                                    <li class="lh"><a href="contact-en.jsp">Contact</a></li>
-                                    <li class="lh"><a href="#-en.jsp">Event</a></li>
+                                    <li class="active"><a href="<%=request.getContextPath()%>/Fontend/index-en.jsp">Home</a></li>
+                                    <li class="active"><a href="<%=request.getContextPath()%>/Fontend/thucdon/thucdon-en.jsp">Menu</a></li>
+                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/order-en.jsp">Book</a></li>
+                                    <li class="gt"><a href="<%=request.getContextPath()%>/Fontend/about/about-en.jsp">Introduce</a></li>
+                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/contact/contact-en.jsp">Contact</a></li>
+                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/#.jsp">Event</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -137,15 +137,15 @@
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
 
 </body>
 

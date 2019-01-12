@@ -13,11 +13,11 @@
     <title>2 Kết - Chấp Hết Anh Em</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo.png">
+    <link rel="icon" href="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <link href="container.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/style.css">
+    <link href="<%=request.getContextPath()%>/Fontend/container.css" rel="stylesheet" type="text/css" />
 
 
 </head>
@@ -26,7 +26,7 @@
      <!-- Preloader -->
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/logo.png" alt="">
+        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
     </div>
 
     <%@include file="../menu/menu-en.jsp" %>
@@ -34,7 +34,7 @@
     
     <!-- ##### Header Area End ##### -->
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb4.jpg);">
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(<%=request.getContextPath()%>/Fontend/img/bg-img/breadcumb4.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -87,7 +87,7 @@
 
                 <!-- Newsletter Area -->
                 <div class="col-12 col-lg-4">
-                    <div class="newsletter-form bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
+                    <div class="newsletter-form bg-img bg-overlay" style="background-image: url(<%=request.getContextPath()%>/Fontend/img/bg-img/bg1.jpg);">
                         <form action="#" method="post">
                             <input type="email" name="email" placeholder="Register to receive information">
                             <button type="submit" class="btn delicious-btn w-100">Registration</button>
@@ -158,7 +158,7 @@
         <div class="insta-feeds d-flex flex-wrap">
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta1.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta1.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -167,7 +167,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta2.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta2.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -176,7 +176,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta3.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta3.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -185,7 +185,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta4.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta4.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -194,7 +194,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta5.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta5.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -203,7 +203,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta6.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta6.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -212,7 +212,7 @@
 
             <!-- Single Insta Feeds -->
             <div class="single-insta-feeds">
-                <img src="img/bg-img/insta7.jpg" alt="">
+                <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/insta7.jpg" alt="">
                 <!-- Icon -->
                 <div class="insta-icon">
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -238,7 +238,7 @@
                     </div>
                     <!-- Footer Logo -->
                     <div class="footer-logo">
-                        <a href="index-en.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
                     </div>
                     <!-- Copywrite -->
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -252,17 +252,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
     <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/google-map/map-active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/google-map/map-active.js"></script>
 </body>
 </html>

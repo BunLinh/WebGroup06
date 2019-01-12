@@ -99,7 +99,7 @@
                         <div class="top-cta-content">
                             <h3>Bình Định Mountain Deer </h3>
                             <h6>Mountainous specialties</h6>
-                            <a href="" class="btn delicious-btn">View food</a>
+                            <a href="thucdon/thucdon-en.jsp" class="btn delicious-btn">View food</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         <div class="top-cta-content">
                             <h3>Năm Căn Sea Crabs</h3>
                             <h6>Ocean specialties</h6>
-                            <a href="" class="btn delicious-btn">View food</a>
+                            <a href="thucdon/thucdon-en.jsp" class="btn delicious-btn">View food</a>
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
                     <div class="cta-content text-center">
                         <h2>Hai Kết Pubs</h2>
                         <p>Born in Linh Trung Ward, Thu Duc District, Ho Chi Minh City. In Hoang Dieu residential area. With mission to serve - relief sadness - stomach pain of students, workers and employees. With 100% fresh, fresh ingredients and many regional specialties, Hai Son would like to serve you all</p>
-                        <a href="#menu-hihi" class="btn delicious-btn">Let's view Menu</a>
+                        <a href="thucdon/thucdon-en.jsphi" class="btn delicious-btn">Let's view Menu</a>
                     </div>
                  </div>
             </div>

@@ -103,7 +103,7 @@
 								<a class="nav-link js-scroll-trigger"
 									href="<%=request.getContextPath()%>/webGroup/project/project.jsp">Requirement</a>
 								<a class="nav-link js-scroll-trigger"
-									href="https://pubsmanager.azurewebsites.net">Project</a>
+									href="<%=request.getContextPath()%>/Fontend/index.jsp">Project</a>
 
 							</div>
 						</div>

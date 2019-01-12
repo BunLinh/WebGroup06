@@ -13,24 +13,24 @@
     <title>About us</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo.png">
+    <link rel="icon" href="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/style.css">
 
     <!--    Css project-->
-    <link href="container.css" rel="stylesheet" type="text/css" />
+    <link href="<%=request.getContextPath()%>/Fontend/container.css" rel="stylesheet" type="text/css" />
     <!--    Css menu-->
-    <link rel="stylesheet" href="thucdon.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/thucdon.css">
 
 </head>
 
 <body>
-    <body>
+   
     <!-- Preloader -->
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/logo.png" alt="">
+        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
     </div>
 
 
@@ -43,7 +43,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb1.jpg);">
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(<%=request.getContextPath()%>/Fontend/img/bg-img/breadcumb1.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -80,7 +80,7 @@
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact">
-                        <img src="img/core-img/salad.jpg" alt="">
+                        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/salad.jpg" alt="">
                         <h3><span class="counter">128</span></h3>
                         <h6>Món Hải sản</h6>
                     </div>
@@ -89,7 +89,7 @@
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact">
-                        <img src="img/core-img/hamburger.jpg" alt="">
+                        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/hamburger.jpg" alt="">
                         <h3><span class="counter">25</span></h3>
                         <h6>Loại Thức uống</h6>
                     </div>
@@ -98,7 +98,7 @@
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact">
-                        <img src="img/core-img/rib.jpg" alt="">
+                        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/rib.jpg" alt="">
                         <h3><span class="counter">71</span></h3>
                         <h6>Món Đồ nướng</h6>
                     </div>
@@ -107,7 +107,7 @@
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact">
-                        <img src="img/core-img/pancake.jpg" alt="">
+                        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/pancake.jpg" alt="">
                         <h3><span class="counter">26</span></h3>
                         <h6>Món đặc sản 3 miền</h6>
                     </div>
@@ -116,7 +116,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <img class="mb-70" src="img/bg-img/bg1.jpg" alt="">
+                    <img class="mb-70" src="<%=request.getContextPath()%>/Fontend/img/bg-img/bg1.jpg" alt="">
                     <p class="text-center">Quán nhậu 2 Kết được thành lập ngày 22/9/2018 tại Khu phố 6, Phường Linh
                         Trung, Quận Thủ Đức, TPHCM bởi 4 thành viên gồm <a href="https://www.facebook.com/NguyenVanDu.4012">Văn
                             Dũ</a>,<a href="https://www.facebook.com/profile.php?id=100007198419241">Hùng Cường</a>,<a
@@ -188,7 +188,7 @@
                     </div>
                     <!-- Footer Logo -->
                     <div class="footer-logo">
-                        <a href="index.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
                     </div>
                     <!-- Copywrite -->
                     <p>
@@ -207,15 +207,15 @@
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
 </body>
 
 </html>

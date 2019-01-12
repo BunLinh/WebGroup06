@@ -14,16 +14,13 @@
     <title>2 Kết - Chấp Hết Anh Em</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/logo.png">
+    <link rel="icon" href="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/Fontend/style.css">
 
     <!--    Css project-->
-    <link href="container.css" rel="stylesheet" type="text/css" />
-    <!--    Css menu-->
-    <link rel="stylesheet" href="menu.css">
-    
+    <link href="<%=request.getContextPath()%>/Fontend/container.css" rel="stylesheet" type="text/css" />
     
     <style>
 
@@ -68,7 +65,7 @@ button:hover {
        <!-- Preloader -->
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/logo.png" alt="">
+        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
     </div>
 
     <%@include file="../menu/menu.jsp" %>
@@ -117,7 +114,7 @@ button:hover {
                     </div>
                     <!-- Footer Logo -->
                     <div class="footer-logo">
-                        <a href="index.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
                     </div>
                     <!-- Copywrite -->
                     <p>
@@ -134,15 +131,15 @@ button:hover {
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
 
 </body>
 
