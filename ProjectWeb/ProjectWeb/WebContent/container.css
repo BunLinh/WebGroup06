@@ -1,0 +1,125 @@
+.col-12{
+    width: 600px;
+}
+.col-12 >.top-social-info{
+    float: left;
+    margin-left: 0px;
+}
+.col-12 >.language{
+    height: 21px;
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+}
+.col-12 >.language>.vn>img{
+     width: 22px;
+     margin-left: 0px;
+}
+.col-12 >.language>.us>img{
+    width: 22px;
+    margin-left: 10px;
+}
+.col-12 >.language>.login{
+    font-size: 12px;
+    color: #b6b6b6;
+    font-style: italic;
+    margin-left: 20px;
+}
+.col-12 >.language>.logup{
+    font-size: 12px;
+    color: #b6b6b6;
+    font-style: italic;
+}
+.col-12 >.language>span{
+    size: 10px;
+    color: #cccccc;
+}
+.col-12 >.search-btn{
+    width: 23px;
+    float: left;
+}
+.col-12 >.language>.login:hover{
+    color: #c21212;
+}
+.col-12 >.language>.logup:hover{
+    color: #c21212;
+}
+/*css menu*/
+.header-area .delicious-main-menu{
+    height: 110px;
+}
+
+.delicious-main-menu{
+    
+    position: fixed;
+}
+.delicious-main-menu>.classy-nav-container{
+    position: absolute;
+}
+.delicious-main-menu>.classy-nav-container>.container{
+    margin-left: 0px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar{
+    height: 91px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.nav-brand>img{
+    width: 200px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav{
+    width: 900px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.active>a{
+    background: none;
+    border-bottom: none;
+    font-size: 17px;
+    color: #474747;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.menu>a{
+    font-size: 17px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.db>a{
+    font-size: 17px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.gt>a{
+    font-size: 17px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.lh>a{
+    font-size: 17px;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.active>a:hover{
+    color: #c21212;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.menu>a:hover{
+    color: #c21212;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.db>a:hover{
+    color: #c21212;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.gt>a:hover{
+    color: #c21212;
+}
+.delicious-main-menu>.classy-nav-container>.container>.classy-navbar>.classy-menu>.classynav>ul>.lh>a:hover{
+    color: #c21212;
+}
+.top-catagory-area{
+    padding-top: 60px;
+}
+.top-catagory-area>.container{
+    height: 270px;
+}
+.top-catagory-area>.container>.row{
+    height: 270px;
+}
+.top-catagory-area>.container>.row>.col-12{
+    height: 270px;
+}
+.best-receipe-area>.container>.row:nth-child(1)>.col-12{
+    height: 65px;
+}
+.best-receipe-area{
+    padding-bottom: 0px;
+}
+.quote-subscribe-adds{
+    margin-top: 20px;
+    height: 500px;
+}
