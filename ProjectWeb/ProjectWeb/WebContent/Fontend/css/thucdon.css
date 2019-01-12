@@ -1,0 +1,271 @@
+/* .main {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+  } */
+  #container1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container1:hover .overlay {
+    opacity: 1;
+  }
+   
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai{
+    color: red;
+    padding-top: 0px;
+    }
+  
+  /* hết món lẩu đại dương
+  /* bắt đầu món dồi trường lăng xả ớt */
+    #container2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container2:hover .overlay2 {
+    opacity: 1;
+  }
+   
+  .text2 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai2{
+    color: red;
+    padding-top: 0px;
+    }
+/* bắt đầu món ăn 3 */
+  #container3 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container3:hover .overlay3 {
+    opacity: 1;
+  }
+   
+  .text3 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai3{
+    color: red;
+    padding-top: 0px;
+    }
+    /* bắt đầu món ăn 4 */
+  #container4 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container4:hover .overlay4 {
+    opacity: 1;
+  }
+   
+  .text4 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai4{
+    color: red;
+    padding-top: 0px;
+    }
+     /* bắt đầu món ăn 5 */
+  #container5 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container5:hover .overlay5 {
+    opacity: 1;
+  }
+   
+  .text5 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai5{
+    color: red;
+    padding-top: 0px;
+    }
+     /* bắt đầu món ăn 6 */
+  #container6 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   
+  .overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(128, 250, 128);
+  }
+   
+  #container6:hover .overlay6 {
+    opacity: 1;
+  }
+   
+  .text6 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #trangthai6{
+    color: red;
+    padding-top: 0px;
+    }
+    #hot{
+      color:red;
+    }
+#price000{
+  color:red;
+  font-size: 18px;
+}
