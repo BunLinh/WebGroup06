@@ -34,7 +34,7 @@
     <link href="../container.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
+<form action="<%=request.getContextPath()%>/Login?command=up" >
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/food.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
@@ -55,11 +55,11 @@
 					
 						<div class="p-t-13 p-b-9">
 						<span class="txt1">
-							Email
+							Phone
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" >
+						<input class="input100" type="text" name="phone" >
 						<span class="focus-input100"></span>
 					</div>
 					
@@ -80,7 +80,7 @@
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" >
+						<input class="input100" type="password" name="wpass" >
 						<span class="focus-input100"></span>
 					</div>
 
@@ -102,7 +102,7 @@
 	
 
 	<div id="dropDownSelect1"></div>
-	
+	</form>
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->

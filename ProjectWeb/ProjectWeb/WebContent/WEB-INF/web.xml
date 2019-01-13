@@ -10,11 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  <servlet-name>XuLiDangNhap</servlet-name>
+    <servlet-name>XuLiDangNhap</servlet-name>
     <servlet-class>controller.XuLiDangNhap</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>XuLiDangNhap</servlet-name>
     <url-pattern>/XuLiDangNhap</url-pattern>
-  </servlet-mapping> 
+  </servlet-mapping>
 </web-app>

@@ -146,7 +146,7 @@
     <!-- All Plugins js -->
     <script src="<%=request.getContextPath()%>/Fontend/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<%=request.getContextPath()%>Fontend/js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/Fontend/js/active.js"></script>
 
 
 
