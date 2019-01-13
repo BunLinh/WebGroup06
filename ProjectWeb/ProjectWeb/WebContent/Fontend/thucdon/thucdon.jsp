@@ -28,13 +28,6 @@
 </head>
 
 <body>
-     <!-- Preloader -->
-    <div id="preloader">
-        <i class="circle-preloader"></i>
-        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
-    </div>
-
-   
    
    <%@include file="../menu/menu.jsp" %>
    
@@ -79,7 +72,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n1.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Thịt Lợn Nướng Mọi</h5>
                                 </a>
                                 <div class="price000">
@@ -92,7 +85,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n2.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cá lóc nướng</h5>
                                 </a>
                                 <div class="price000">
@@ -105,7 +98,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n3.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Mực nướng</h5>
                                 </a>
                                 <div class="price000">
@@ -118,7 +111,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n4.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Rắn mối nướng trui</h5>
                                 </a>
                                 <div class="price000">
@@ -131,7 +124,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n5.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Gà Nướng</h5>
                                 </a>
                                 <div class="price000">
@@ -144,7 +137,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/donuong/n6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Bò nướng</h5>
                                 </a>
                                 <div class="price000">
@@ -157,7 +150,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r1.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Lẩu Đại Dương</h5>
                                 </a>
                                 <div class="price000">
@@ -172,7 +165,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r2.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Dòi Trường Lăng Xả Ớt</h5>
                                 </a>
                                 <div class="price000">
@@ -187,7 +180,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r3.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Lục Bộ Chầu Bia Lon</h5>
                                 </a>
                                 <div class="price000">
@@ -202,7 +195,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r4.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Tý Cô Nương Thoát Y</h5>
                                 </a>
                                 <div class="price000">
@@ -217,7 +210,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r5.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Đuông Dừa Lăng Nước Mắm</h5>
                                 </a>
                                 <div class="price000">
@@ -232,7 +225,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Tôm Hùm Nướng</h5>
                                 </a>
                                 <div class="price000">
@@ -258,7 +251,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h1.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Lẩu Đại Dương</h5>
                                 </a>
                                 <div class="price000">
@@ -273,7 +266,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h2.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Dòi Trường Lăng Xả Ớt</h5>
                                 </a>
                                 <div class="price000">
@@ -288,7 +281,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h3.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Lục Bộ Chầu Bia Lon</h5>
                                 </a>
                                 <div class="price000">
@@ -303,7 +296,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h4.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Tý Cô Nương Thoát Y</h5>
                                 </a>
                                 <div class="price000">
@@ -318,7 +311,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h5.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Đuông Dừa Lăng Nước Mắm</h5>
                                 </a>
                                 <div class="price000">
@@ -333,7 +326,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -346,7 +339,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h7.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -359,7 +352,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h8.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -372,7 +365,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h9.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -385,7 +378,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h10.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -398,7 +391,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h11.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -411,7 +404,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/haisan/h12.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="price000">
@@ -438,7 +431,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/d1.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Heineken</h5>
                                 </a>
                                 <div class="price000">
@@ -453,7 +446,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/d2.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Tiger Beer</h5>
                                 </a>
                                 <div class="price000">
@@ -468,7 +461,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/menu/thucuong/h3.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>SaiGon Special</h5>
                                 </a>
                                 <div class="price000">
@@ -483,7 +476,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r4.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Tý Cô Nương Thoát Y</h5>
                                 </a>
                                 <div class="ratings">
@@ -502,7 +495,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r5.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Đuông Dừa Lăng Nước Mắm</h5>
                                 </a>
                                 <div class="ratings">
@@ -521,7 +514,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -538,7 +531,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -555,7 +548,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -572,7 +565,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -589,7 +582,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -606,7 +599,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">
@@ -623,7 +616,7 @@
                         <div class="single-best-receipe-area mb-30">
                             <img src="<%=request.getContextPath()%>/Fontend/img/bg-img/r6.jpg" alt="">
                             <div class="receipe-content">
-                                <a href="order.jsp">
+                                <a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">
                                     <h5>Cẩu Ca Hầu Rượu</h5>
                                 </a>
                                 <div class="ratings">

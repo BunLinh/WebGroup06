@@ -7,7 +7,10 @@
 <title>News</title>
 </head>
 <body>
-<%@include file="/Fontend/menu/menu.jsp" %>
+
+
+
+
 <section class="home-slider-loop-false  inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('../img/bg1.jpg');">
         

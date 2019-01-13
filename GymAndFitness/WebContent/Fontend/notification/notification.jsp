@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Notification</title>
 </head>
+
+
 <body>
-<%@include file="/Fontend/menu/menu.jsp" %>
+
 <section class="home-slider-loop-false  inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('../img/bg5.jpg');">
         
@@ -147,7 +147,6 @@
       </div>
 
     </section> <!-- .section -->
-
    
      <script src="<%=request.getContextPath()%>/Fontend/js/jquery-3.2.1.min.js"></script>
     <script src="<%=request.getContextPath()%>/Fontend/js/popper.min.js"></script>
@@ -157,14 +156,9 @@
 
     <script src="<%=request.getContextPath()%>/Fontend/js/jquery.magnific-popup.min.js"></script>
     <script src="<%=request.getContextPath()%>/Fontend/js/magnific-popup-options.js"></script>
-    
-
     <script src="<%=request.getContextPath()%>/Fontend/js/main.js"></script>
 
 
 
-
-
- <%@include file="/Fontend/footer/footer.jsp" %> 
 </body>
 </html>
