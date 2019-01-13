@@ -121,10 +121,10 @@
                                 <ul>
                                     <li class="active"><a href="<%=request.getContextPath()%>/Fontend/index.jsp">Trang chủ</a></li>
                                     <li class="active"><a href="<%=request.getContextPath()%>/Fontend/thucdon/thucdon.jsp">Thực đơn</a></li>
-                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/order.jsp">Đặt bàn</a></li>
+                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">Đặt bàn</a></li>
                                     <li class="gt"><a href="<%=request.getContextPath()%>/Fontend/about/about.jsp">Giới thiệu</a></li>
                                     <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/contact/contact.jsp">Liên hệ</a></li>
-                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/contact/contact.jsp">Sự Kiện</a></li>
+                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/notification/notification.jsp">Sự Kiện</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->

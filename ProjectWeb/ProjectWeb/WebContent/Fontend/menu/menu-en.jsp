@@ -120,10 +120,10 @@
                                 <ul>
                                     <li class="active"><a href="<%=request.getContextPath()%>/Fontend/index-en.jsp">Home</a></li>
                                     <li class="active"><a href="<%=request.getContextPath()%>/Fontend/thucdon/thucdon-en.jsp">Menu</a></li>
-                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/order-en.jsp">Book</a></li>
+                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/Reservation-en.jsp">Book</a></li>
                                     <li class="gt"><a href="<%=request.getContextPath()%>/Fontend/about/about-en.jsp">Introduce</a></li>
                                     <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/contact/contact-en.jsp">Contact</a></li>
-                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/#.jsp">Event</a></li>
+                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/notification/notification-en.jsp">Event</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->

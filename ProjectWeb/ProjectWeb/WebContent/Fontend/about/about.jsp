@@ -27,14 +27,6 @@
 
 <body>
    
-    <!-- Preloader -->
-    <div id="preloader">
-        <i class="circle-preloader"></i>
-        <img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt="">
-    </div>
-
-
-
 	<%@include file="../menu/menu.jsp" %>
 
 
