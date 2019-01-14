@@ -61,15 +61,20 @@
             <div class="row justify-content-center">
               <div class="col-md-10 p-5 form-wrap">
                 <form >
+                 <%if(session!= null){
+                            	Account account= (Account) session.getAttribute("account");	
+                            	if(account!=null){
+                            
+                            	%>
                   <div class="row mb-4">
                     <div class="form-group col-md-4">
                       <label for="name" class="label">Tên</label>
                       <div class="form-field-icon-wrap">
                         <span class="icon ion-android-person"></span>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" id="name" value="<%out.print(account.getUsername());%>">
                       </div>
                     </div>
-                    
+                    <%}else{}} %>
                     <div class="form-group col-md-4">
                       <label for="email" class="label">Email</label>
                       <div class="form-field-icon-wrap">
@@ -102,7 +107,7 @@
                     </div>
                     
                     <div class="form-group col-md-4">
-                      <label for="persons" class="label">Chọn món</label>
+                      <label for="persons" class="label">Chọn 1 món</label>
                       <div class="form-field-icon-wrap">
                         <span class="icon ion-android-arrow-dropdown"></span>
                         <select name="persons" id="order" class="form-control">
@@ -179,7 +184,11 @@
                   
                 </form>
               </div>
+              
             </div>
+            
+            
+            
           </div>
         </div> <!-- .section -->
         
