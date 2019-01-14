@@ -47,113 +47,7 @@
     
   </head>
   <body>
-  
-  <!-- Search Wrapper -->
-    <div class="search-wrapper">
-        <!-- Close Btn -->
-        <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <form action="#" method="post">
-                        <input type="search" name="search" placeholder="Mời anh em chọn mồi...">
-                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-between">
-                    <!-- Breaking News -->
-                    <div style="width: 400px;" class="col-12 col-sm-6">
-                        <div class="breaking-news">
-                            <div id="breakingNewsTicker" class="ticker">
-                                <ul>
-                                    <li><a href="#">Chào mừng đến quán nhậu 2 Kết</a></li>
-                                    <li><a href="#">Không say không về</a></li>
-                                    <li><a href="#">Quẩy nào anh em</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Top Social Info -->
-                    <div style="width: 600px" class="col-12 col-sm-6">
-                        <div class="top-social-info text-right">
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="language">
-                            <a class="vn" href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/vi-flag.png"></a>
-                            <a class="us" href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/us-flag.png"></a>
-                            <a class="login" href="<%=request.getContextPath()%>/Fontend/login/login-vn.jsp">Đăng nhập</a>
-                            <span>/</span>
-                            <a class="logup" href="<%=request.getContextPath()%>/Fontend/login/signup-vn.jsp">Đăng kí</a>
-
-                        </div>
-                        <div style="margin-left: 15px;" class="search-btn">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Navbar Area -->
-        <div class="delicious-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="deliciousNav">
-
-                        <!-- Logo -->
-                        <a class="nav-brand" href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="active"><a href="<%=request.getContextPath()%>/Fontend/index.jsp">Trang chủ</a></li>
-                                    <li class="active"><a href="<%=request.getContextPath()%>/Fontend/thucdon/thucdon.jsp">Thực đơn</a></li>
-                                    <li class="db"><a href="<%=request.getContextPath()%>/Fontend/order/Reservation.jsp">Đặt bàn</a></li>
-                                    <li class="gt"><a href="<%=request.getContextPath()%>/Fontend/about/about.jsp">Giới thiệu</a></li>
-                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/contact/contact.jsp">Liên hệ</a></li>
-                                    <li class="lh"><a href="<%=request.getContextPath()%>/Fontend/notification/notification.jsp">Sự Kiện</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-  
+  <%@include file="/Fontend/menu/menu.jsp" %>
 
         <div class="section" data-aos="fade-up">
           <div class="container">
@@ -166,7 +60,7 @@
             
             <div class="row justify-content-center">
               <div class="col-md-10 p-5 form-wrap">
-                <form action="#">
+                <form >
                   <div class="row mb-4">
                     <div class="form-group col-md-4">
                       <label for="name" class="label">Tên</label>

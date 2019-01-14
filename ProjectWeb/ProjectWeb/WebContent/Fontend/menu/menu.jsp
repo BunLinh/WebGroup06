@@ -87,11 +87,11 @@
                             	if(account!=null){
                             
                             	%>
-                            <li >
+                            <li class="nav-item dropdown">
                             <a
 					class="nav-link dropdown-toggle text-nowrap px-3"
 					data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-					aria-expanded="false" style="padding: 0"> <img
+					aria-expanded="false" style="padding: 0"> <img style="width: 25px;"
 						class="user-avatar rounded-circle mr-2"
 						src="<%=request.getContextPath() %>/Fontend/img/avatars/0.jpg"
 						alt="User Avatar" height="50px" width="50px"> <span

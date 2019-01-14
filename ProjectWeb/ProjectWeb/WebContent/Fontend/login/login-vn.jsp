@@ -34,7 +34,7 @@
     <link href="../container.css" rel="stylesheet" type="text/css" /></head>
 <body>
 	
-  
+  <form action="<%=request.getContextPath()%>/Xuly" method="post">
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/food.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
@@ -94,7 +94,7 @@
 	
 
 	<div id="dropDownSelect1"></div>
-	
+	</form>
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
