@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//WebContent/JSTL/JSTL.jsp=UTF-8
 encoding//src/controller/Xuly.java=UTF-8
 encoding//src/dao/AccountDAOImpl.java=UTF-8
 encoding//src/dao/UserDAOImpl.java=UTF-8
