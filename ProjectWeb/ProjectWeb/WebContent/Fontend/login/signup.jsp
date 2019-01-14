@@ -34,7 +34,7 @@
     <link href="../container.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<form action="<%=request.getContextPath()%>/Login?command=up" >
+<form action="<%=request.getContextPath()%>/Xulydangky" method="post" >
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/food.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">

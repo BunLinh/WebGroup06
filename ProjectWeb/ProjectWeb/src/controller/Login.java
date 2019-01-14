@@ -16,7 +16,7 @@ import model.Account;
 @WebServlet("/Login")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	 AccountDAOImpl dao=new AccountDAOImpl();
 	public Login() {
 		super();
 
@@ -38,9 +38,10 @@ public class Login extends HttpServlet {
 		String pass = request.getParameter("pass");
 
 		Account account = new Account();
-		HttpSession session = request.getSession();
+		
 		account.setUsername(username);
 		account.setPassword(pass);
+		HttpSession session = request.getSession();
 
 		String url = "";
 		switch (command) {
@@ -53,10 +54,10 @@ public class Login extends HttpServlet {
 
 			break;
 		case "login":
-			boolean check= new AccountDAOImpl().checkLogin(account);
+			boolean check=dao.checkLogin(account);
 			if(account.getUsername().equals("admin")&& (account.getPassword().equals("admin"))) {
 				session.setAttribute("account", account);
-				url="Backend/index.jsp";
+				url="Fontend/index.jsp";
 				
 			} else if (check) {
 				

@@ -1,3 +1,4 @@
+<%@page import="model.Account"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -37,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <form action="#" method="post">
+                    <form >
                         <input type="search" name="search" placeholder="Mời anh em chọn mồi...">
                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
@@ -79,10 +80,36 @@
                         <div class="language">
                             <a class="vn" href="<%=request.getContextPath()%>/Fontend/index.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/vi-flag.png"></a>
                             <a class="us" href="<%=request.getContextPath()%>/Fontend/index-en.jsp"><img src="<%=request.getContextPath()%>/Fontend/img/bg-img/us-flag.png"></a>
-                            <a class="login" href="<%=request.getContextPath()%>/Fontend/login/login-vn.jsp">Đăng nhập</a>
+                            
+                            
+                            <%if(session!= null){
+                            	Account account= (Account) session.getAttribute("account");	
+                            	if(account!=null){
+                            
+                            	%>
+                            <li >
+                            <a
+					class="nav-link dropdown-toggle text-nowrap px-3"
+					data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+					aria-expanded="false" style="padding: 0"> <img
+						class="user-avatar rounded-circle mr-2"
+						src="<%=request.getContextPath() %>/Fontend/img/avatars/0.jpg"
+						alt="User Avatar" height="50px" width="50px"> <span
+						class="d-none d-md-inline-block"><%=account.getUsername()%></span>
+				</a>
+					<div class="dropdown-menu dropdown-menu-small">
+						<a class="dropdown-item" href="#"> <i class="material-icons">&#xE7FD;</i>
+							Profile
+						</a> <a class="dropdown-item text-danger"
+							href="<%=request.getContextPath()%>/DangXuat"> <i
+							class="material-icons text-danger">&#xE879;</i> Logout
+						</a>
+					</div></li>
+<%}else { %>
+                            <a class="login" href="<%=request.getContextPath()%>/Fontend/login/login.jsp">Đăng nhập</a>
                             <span>/</span>
-                            <a class="logup" href="<%=request.getContextPath()%>/Fontend/login/signup-vn.jsp">Đăng kí</a>
-
+                            <a class="logup" href="<%=request.getContextPath()%>/Fontend/login/signup.jsp">Đăng kí</a>
+<%}} %>
                         </div>
                         <div style="margin-left: 15px;" class="search-btn">
                             <i class="fa fa-search" aria-hidden="true"></i>

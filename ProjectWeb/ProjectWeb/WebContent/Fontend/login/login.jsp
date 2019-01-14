@@ -33,10 +33,8 @@
 
     <link href="../container.css" rel="stylesheet" type="text/css" /></head>
 <body>
-	<%if(session != null){
-		Account account = (Account) session.getAttribute("account");
-		%>
-  <form action="<%=request.getContextPath()%>/Login?command=login" >
+	
+  <form action="<%=request.getContextPath()%>/Xuly" method="post" >
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/food.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">

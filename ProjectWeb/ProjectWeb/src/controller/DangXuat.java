@@ -6,19 +6,17 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import dao.AccountDAOImpl;
-import model.Account;
+import javax.servlet.http.HttpSession;
 
 /**
- * Servlet implementation class Xulydangky
+ * Servlet implementation class DangXuat
  */
-@WebServlet("/Xulydangky")
-public class Xulydangky extends HttpServlet {
+@WebServlet("/DangXuat")
+public class DangXuat extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
- 
-    public Xulydangky() {
+    
+    public DangXuat() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -31,19 +29,9 @@ public class Xulydangky extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("utf-8");
-	     response.setCharacterEncoding("utf-8");
-	     String username = request.getParameter("username");
-			String pass = request.getParameter("pass");
-			Account account= new Account(username, pass);
-			if(new AccountDAOImpl().addAcount(account)) {
-				response.sendRedirect("Fontend/login/login.jsp");
-				
-				
-			}else {
-				System.out.println("error");
-			}
-	
+		HttpSession session= request.getSession();
+		session.invalidate();
+		response.sendRedirect("Fontend/login/login.jsp");
 	}
 
 }
