@@ -60,26 +60,32 @@
             
             <div class="row justify-content-center">
               <div class="col-md-10 p-5 form-wrap">
-                <form >
-                 <%if(session!= null){
+                <form action="<%=request.getContextPath()%>/AUDBook" method="post" >
+                
+                  <div class="row mb-4">
+                  <%if(session!= null){
                             	Account account= (Account) session.getAttribute("account");	
                             	if(account!=null){
                             
                             	%>
-                  <div class="row mb-4">
                     <div class="form-group col-md-4">
+                     
                       <label for="name" class="label">Tên</label>
                       <div class="form-field-icon-wrap">
                         <span class="icon ion-android-person"></span>
-                        <input type="text" class="form-control" id="name" value="<%out.print(account.getUsername());%>">
+                        <input name="name" type="text" class="form-control" id="name" value="<%out.print(account.getUsername());%>">
                       </div>
+                      <%}else{
+                    	  response.sendRedirect(request.getContextPath()+"/Fontend/login/login.jsp");
+                    	  
+                      } %>
                     </div>
-                    <%}else{}} %>
+                  
                     <div class="form-group col-md-4">
-                      <label for="email" class="label">Email</label>
+                      <label for="email" class="label">Note:</label>
                       <div class="form-field-icon-wrap">
-                        <span class="icon ion-email"></span>
-                        <input type="email" class="form-control" id="email">
+                        <span ></span>
+                        <input  type="text" name="description" class="form-control" id="email">
                       </div>
                     </div>
                     
@@ -95,29 +101,18 @@
                     <div class="form-group col-md-4">
                       <label for="persons" class="label">Số lượng bàn</label>
                       <div class="form-field-icon-wrap">
-                        <span class="icon ion-android-arrow-dropdown"></span>
-                        <select name="persons" id="amounttable" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                          <option value="">3</option>
-                          <option value="">4</option>
-                          <option value="">5+</option>
-                        </select>
+                       
+                        <input type="text" name="quantity"  class="form-control">
+                         
                       </div>
                     </div>
                     
                     <div class="form-group col-md-4">
-                      <label for="persons" class="label">Chọn 1 món</label>
+                      <label for="persons" class="label">Nhập món ăn</label>
                       <div class="form-field-icon-wrap">
                         <span class="icon ion-android-arrow-dropdown"></span>
-                        <select name="persons" id="order" class="form-control">
-                          <option value="">Tý cô nương thoát y</option>
-                          <option value="">Chuột nướng</option>
-                          <option value="">Tôm hùm nướng</option>
-                          <option value="">Gà nướng</option>
-                          <option value="">Cá lóc thui</option>
-                          <option value="">...!</option>
-                        </select>
+                        <input  type="text" name="book_product" class="form-control">
+                         
                       </div>
                     </div>
                     
@@ -134,14 +129,9 @@
                     <div class="form-group col-md-4">
                       <label for="persons" class="label">Số người</label>
                       <div class="form-field-icon-wrap">
-                        <span class="icon ion-android-arrow-dropdown"></span>
-                        <select name="persons" id="persons" class="form-control">
-                          <option value="">1 person</option>
-                          <option value="">2 persons</option>
-                          <option value="">3 persons</option>
-                          <option value="">4 persons</option>
-                          <option value="">5+ persons</option>
-                        </select>
+                       
+                        <input  type="text" name="book_quantity_product" id="persons" class="form-control">
+                           
                       </div>
                     </div>
                     
@@ -150,18 +140,17 @@
                       <label for="date" class="label">Ngày</label>
                       <div class="form-field-icon-wrap">
                         <span class="icon ion-calendar"></span>
-                        <input type="text" class="form-control" id="date">
+                        <input  type="text" name="starday" type="text" class="form-control" >
                       </div>
                     </div>
                     
                      <div class="form-group col-md-4">
                       <label for="persons" class="label">Coupon</label>
                       <div class="form-field-icon-wrap">
-                        <span class="icon ion-android-arrow-dropdown"></span>
-                        <select name="persons" id="persons" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                        </select>
+                        
+                        <input  type="text" name="coupon" id="persons" class="form-control">
+                          
+                       
                       </div>
                     </div>
                     
@@ -177,8 +166,9 @@
                   
                   <div class="row justify-content-center">
                     <div class="col-md-4">
-                      <input type="submit" class="btn btn-primary btn-outline-primary btn-block" value="Xác nhận">
-                    </div>
+                     <a href="%>"> 
+                     <button class="btn btn-primary btn-outline-primary btn-block">Xác nhận</button>
+                     </a></div>
                   </div>
                   
                   
@@ -191,7 +181,7 @@
             
           </div>
         </div> <!-- .section -->
-        
+        <%} %>
         
         
         <!-- Footer -->
